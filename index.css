@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "CursedTimerUlil-Aznm";
+    src: url(./CursedTimerUlil-Aznm.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    align-items: center;
+    font-family: "CursedTimerUlil-Aznm";
+    width: 600px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.score {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 90px;
+    color: #F94F6D;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+
+.btn {
+    color: #9AABD8;
+    background-color: inherit;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: "CursedTimerUlil-Aznm";
+    padding: 10px;
+    font-size: 18px;
+}
+
+.newGame {
+    align-self: flex-end;
+    color: lightgreen;
+}
